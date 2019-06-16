@@ -1,0 +1,76 @@
+{
+  "charts": [
+    {
+      "id": 1,
+      "name": "AAPL",
+      "image": "https://finviz.com/chart.ashx?t=AAPL&ty=c&ta=1&p=d&s=l",
+      "rsi": 56.39
+    },
+    {
+      "id": 2,
+      "name": "BABA",
+      "image": "https://finviz.com/chart.ashx?t=BABA&ty=c&ta=1&p=d&s=l",
+      "rsi": 43.66
+    },
+    {
+      "id": 3,
+      "name": "FB",
+      "image": "https://finviz.com/chart.ashx?t=FB&ty=c&ta=1&p=d&s=l",
+      "rsi": 54.41
+    },
+    {
+      "id": 4,
+      "name": "PYPL",
+      "image": "https://finviz.com/chart.ashx?t=PYPL&ty=c&ta=1&p=d&s=l",
+      "rsi": 61.80
+    },
+    {
+      "id": 5,
+      "name": "MSFT",
+      "image": "https://finviz.com/chart.ashx?t=MSFT&ty=c&ta=1&p=d&s=l",
+      "rsi": 63.71
+    },
+    {
+      "id": 6,
+      "name": "ROKU",
+      "image": "https://finviz.com/chart.ashx?t=ROKU&ty=c&ta=1&p=d&s=l",
+      "rsi": 68.20
+    },
+    {
+      "id": 7,
+      "name": "NVDA",
+      "image": "https://finviz.com/chart.ashx?t=NVDA&ty=c&ta=1&p=d&s=l",
+      "rsi": 40.01
+    },
+    {
+      "id": 8,
+      "name": "TWLO",
+      "image": "https://finviz.com/chart.ashx?t=TWLO&ty=c&ta=1&p=d&s=l",
+      "rsi": 55.80
+    },
+    {
+      "id": 9,
+      "name": "OTLK",
+      "image": "https://finviz.com/chart.ashx?t=OTLK&ty=c&ta=1&p=d&s=l",
+      "rsi": 54.84
+    },
+    {
+      "id": 11,
+      "name": "AAP",
+      "image": "https://finviz.com/chart.ashx?t=AAP&ty=c&ta=1&p=d&s=l",
+      "rsi": 35.88
+    },
+    {
+      "id": 13,
+      "name": "SPKE",
+      "image": "https://finviz.com/chart.ashx?t=SPKE&ty=c&ta=1&p=d&s=l",
+      "rsi": 71.35
+    },
+    {
+      "id": 14,
+      "name": "IIPR",
+      "image": "https://finviz.com/chart.ashx?t=IIPR&ty=c&ta=1&p=d&s=l",
+      "rsi": 76.07
+    }
+  ]
+}

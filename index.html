@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Charts</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <span>RSIGNAL</span>
+    </nav>
+<div class="logo-container">
+  <h1>Relative Strength Index Signals</h1>
+  <a href="https://www.investopedia.com/terms/r/rsi.asp">What is RSI?</a>
+    <div id='chart-header'>
+      <img src="https://i.ytimg.com/vi/piDfJKy9gDk/hqdefault.jpg" alt="chart-header">
+    </div>
+
+
+
+    <div class="container">
+      <form class="add-chart-form" style="">
+        <h3>Create a Chart!</h3>
+
+        <input type="text" name="name" value="" placeholder="Enter a chart's name..." class="input-text">
+        <br>
+        <input type="text" name="image" value="" placeholder="Enter a chart's image URL..." class="input-text">
+        <br>
+        <input type="number" name="rsi" value="" placeholder="Enter a chart's rsi" class="input-number">
+        <br>
+        <input type="submit" name="submit" value="Create New Chart" class="submit">
+      </form>
+    </div>
+    <hr>
+    <!-- <p style='text-align:center' >Buy and Sell Signals to help your money <button id='new-chart-btn'>Add a new chart!</button></p> -->
+
+
+    <div id="chart-collection">
+    </div>
+</div>
+
+    <script type="text/javascript" src="src/index.js"></script>
+  </body>
+</html>
