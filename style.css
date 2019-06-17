@@ -1,19 +1,103 @@
+/* quandi api key: xX6McQAvBk9CJ4zh7REH */
+/* .low-risk{
+    background: green;
+}
 
+.medium-risk{
+    background: orange;
+}
+
+
+.high-risk{
+    background: red;
+} */
+* {
+  margin: 0; padding: 0;
+}
+
+#container {
+  overflow: hidden;
+  height: 300px;
+  background: #edeae8;
+  position: relative;
+}
+
+video {
+  position: absolute;
+
+  /* Vertical and Horizontal center*/
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'ABeeZee', sans-serif; */
+.card{
+  column-count: 2;
+  column-rule-style: groove;
+  column-gap: 12px;
+  column-rule: 1px solid lightblue;
+   column-span: all;
+   column-fill: auto;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: rgba(15, 32, 82, 0.85);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(106, 110, 170);
+  color: black;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
 .logo-container {
   text-align: center;
-
+  font-family: 'Noto Serif', serif;
 }
 
 nav {
-  background: white;
+  background: rgba(23, 86, 193, 0.68);
   padding: 20px;
 }
 
 nav span {
   background-color: rgba(102, 240, 240, 0.6);
   padding: 5px 0;
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
   border-top: 5px solid rgb(217, 43, 43);
   border-bottom: 5px solid rgb(52, 217, 43);
