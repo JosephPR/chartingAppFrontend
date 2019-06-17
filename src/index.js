@@ -1,4 +1,4 @@
-/* quandi api key: xX6McQAvBk9CJ4zh7REH */
+
 
 
 let addChart = false
