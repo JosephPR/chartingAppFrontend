@@ -23,7 +23,6 @@ function putChartOnPage(charts){
     <h4> Target: ${chart.target}</h4>
     <h4> Market Cap: ${chart.market}</h4>
     <h4> concensus: ${chart.rating}</h4>
-
     </div>
     <hr>`
   })
@@ -40,7 +39,8 @@ addChartForm.addEventListener('submit', function (event) {
   fetch(chartUrl, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
     },
     body: JSON.stringify({
       "name": `${event.target.name.value}`,
@@ -53,6 +53,7 @@ addChartForm.addEventListener('submit', function (event) {
   })
     .then(parseJSON)
     .then(putChartOnPage)
+    // .then(addChartForm.reset())
 });
 
 // bideo stuff
