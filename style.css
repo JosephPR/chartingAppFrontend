@@ -1,4 +1,4 @@
-
+/* quandi api key: xX6McQAvBk9CJ4zh7REH */
 /* .low-risk{
     background: green;
 }
@@ -34,7 +34,7 @@ font-family: 'Ubuntu', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'ABeeZee', sans-serif; */
 .card{
-  column-count: 2;
+  column-count: 1;
   column-rule-style: groove;
   column-gap: 12px;
   column-rule: 1px solid lightblue;
