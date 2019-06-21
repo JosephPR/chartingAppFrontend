@@ -3,55 +3,111 @@
   <head>
     <meta charset="utf-8">
     <title>Charts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=ABeeZee|Noto+Serif|Roboto|Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
 
 
     <nav>
       <span>RSIGNAL</span>
+      <a class="links" rel="stylesheet" href="http://localhost:3000/favs/favs.html">Favorites</a>
+      <a class="links" rel="stylesheet" href="http://localhost:3000/mutual/mutual.html">Funds</a>
     </nav>
-<div class="logo-container">
-  <h2 class="time"></h2>
-  <h1>Go to the Market Prepared</h1>
-  <a href="https://www.investopedia.com/terms/r/rsi.asp">What is RSI?</a>
-    <div id='chart-header'>
-      <img src="https://i.ytimg.com/vi/piDfJKy9gDk/hqdefault.jpg" alt="chart-header">
-    </div>
 
+<div class="logo-container">
+  <h1 class="time"></h1>
+  <br>
+  <h1>Go to the Market Prepared</h1>
+  <br>
+  <h4>We provide intraday market data and up to date charts provided by finviz. Keep track of intraday highs and lows, previous day closing prices and more!</h4>
+  <br>
+
+  <div id="container">
+    <video autoplay muted loop>
+      <source src="https://www.videvo.net/videvo_files/converted/2018_04/preview/180405_FinancialCharts_14.mp495078.webm" type="video/mp4">
+      </video>
+    </div>
+<hr>
+  <!-- <a href="https://www.investopedia.com/terms/r/rsi.asp">What is RSI?</a>
+    <div id='chart-header'>
+      <img src="https://media2.giphy.com/media/l0HlDDyxBfSaPpU88/giphy.gif" width="80%" alt="chart-header">
+    </div> -->
+<div class="container">
+  <h1 class="track">Keep track of your performance in the market</h1>
+<div id="light-charts"></div>
+</div>
+<hr>
+<div class="container">
+  <h1>Hot Stocks</h1>
+  <h3>Find five of the most popular stocks from each sector. Click on any of the links below to find hot stocks!</h3>
+  <div class="container-cats">
+
+    <h3><a href="http://localhost:3000/technology/tech.html">Technology</a> </h3>
+    <h3>  <a href="http://localhost:3000/oilandgas/oilandgas.html">Oil and Gas</a></h3>
+    <h3><a href="http://localhost:3000/financials/financials.html">Financials</a></h3>
+    <h3>  <a href="http://localhost:3000/biotech/biotech.html">BioTech</a></h3>
+    <h3>    <a href="http://localhost:3000/pharma/pharma.html">Pharma</a></h3>
+
+
+  </div>
+<hr>
     <div class="container">
       <form class="add-chart-form" style="">
-        <h3>Create a Chart!</h3>
-
-        <input type="text" name="name" value="" placeholder="Enter a chart's name..." class="input-text">
+        <h3>Create a chart to add to your collection</h3>
+            <h3></h3>
+        <input type="text" name="name" value="" placeholder="Enter a chart's name..." id="input-name">
         <br>
-        <input type="text" name="image" value="" placeholder="Enter a chart's image URL..." class="input-text">
+        <input type="text" name="image" value="" placeholder="Enter a chart's image URL..." id="input-image">
         <br>
-        <input type="text" name="rsi" value="" placeholder="Enter a chart's rsi" class="input-text">
+        <input type="text" name="rsi" value="" placeholder="Enter a chart's rsi" id="input-rsi">
         <br>
-        <input type="text" name="target" value="" placeholder="Enter a chart's target price" class="input-text">
+        <input type="text" name="target" value="" placeholder="Enter a chart's target price" id="input-target">
         <br>
-        <input type="text" name="market" value="" placeholder="Enter a chart's market cap" class="input-text">
+        <input type="text" name="market" value="" placeholder="Enter a chart's market cap" id="input-market">
         <br>
-        <input type="text" name="rating" value="" placeholder="Enter a chart's buy rating" class="input-text">
+        <input type="text" name="rating" value="" placeholder="Enter a chart's buy rating" id="input-rating">
         <br>
         <input type="submit" name="submit" value="Create New Chart" class="submit">
       </form>
     </div>
     <hr>
     <!-- <p style='text-align:center' >Buy and Sell Signals to help your money <button id='new-chart-btn'>Add a new chart!</button></p> -->
-    <div id="container">
-      <video autoplay muted loop>
-        <source src="https://www.videvo.net/videvo_files/converted/2018_04/preview/180405_FinancialCharts_14.mp495078.webm" type="video/mp4">
-          <!-- https://www.videvo.net/videvo_files/converted/2018_04/preview/180405_FinancialCharts_12.mp477881.webm -->
-        </video>
-      </div>
 
+      <!-- <div class="wrap">
+     <div class="search">
+        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+       </button>
+     </div>
+  </div>
+
+<hr> -->
+
+
+
+    <h1>My Chart Collection</h1>
     <div id="chart-collection">
+      <form id="update-chart-form">
+        <input type="text" for="hello" name="rsi" value="" placeholder="Enter a chart's rsi" id="input-rsi">
+        <br>
+        <input type="text" name="target" value="" placeholder="Enter a chart's target price" id="input-target">
+        <br>
+        <input type="text" name="market" value="" placeholder="Enter a chart's market cap" id="input-market">
+        <br>
+        <input type="text" name="rating" value="" placeholder="Enter a chart's buy rating" id="input-rating">
+        <br>
+        <input id="update-chart-form" type="submit" name="submit" value="Create New Chart" class="submit">
+      </form>
     </div>
 </div>
-  <script src="https://unpkg.com/moment"></script>
+<!-- <script type="text/javascript" src="simple-pagination.js"></script> -->
+<script src="https://unpkg.com/moment"></script>
+<!-- <script src= 'https://requirejs.org/docs/release/2.3.5/minified/require.js'></script> -->
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+  <!-- <script src="src.pagination.js"></script> -->
     <script type="text/javascript" src="src/index.js"></script>
   </body>
 </html>

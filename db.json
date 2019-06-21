@@ -1,60 +1,6 @@
 {
   "charts": [
     {
-      "id": 1,
-      "name": "AAPL",
-      "image": "https://finviz.com/chart.ashx?t=AAPL&ty=c&ta=1&p=d&s=l",
-      "rsi": 56.39,
-      "target": "210.89",
-      "market": "893.30B",
-      "rating": "BUY"
-    },
-    {
-      "id": 2,
-      "name": "BABA",
-      "image": "https://finviz.com/chart.ashx?t=BABA&ty=c&ta=1&p=d&s=l",
-      "rsi": 43.66,
-      "target": "216.48",
-      "market": "417B",
-      "rating": "BUY"
-    },
-    {
-      "id": 3,
-      "name": "FB",
-      "image": "https://finviz.com/chart.ashx?t=FB&ty=c&ta=1&p=d&s=l",
-      "rsi": 54.41,
-      "target": "222.30",
-      "market": "506.59B",
-      "rating": "BUY"
-    },
-    {
-      "id": 4,
-      "name": "PYPL",
-      "image": "https://finviz.com/chart.ashx?t=PYPL&ty=c&ta=1&p=d&s=l",
-      "rsi": 61.8,
-      "target": "116.55",
-      "market": "135.96B",
-      "rating": "NEUTRAL"
-    },
-    {
-      "id": 5,
-      "name": "MSFT",
-      "image": "https://finviz.com/chart.ashx?t=MSFT&ty=c&ta=1&p=d&s=l",
-      "rsi": 63.71,
-      "target": "143.19",
-      "market": "1013.94B",
-      "rating": "BUY"
-    },
-    {
-      "id": 6,
-      "name": "ROKU",
-      "image": "https://finviz.com/chart.ashx?t=ROKU&ty=c&ta=1&p=d&s=l",
-      "rsi": 68.2,
-      "target": "81.13",
-      "market": "11.89B",
-      "rating": "SELL"
-    },
-    {
       "id": 7,
       "name": "NVDA",
       "image": "https://finviz.com/chart.ashx?t=NVDA&ty=c&ta=1&p=d&s=l",
@@ -64,48 +10,12 @@
       "rating": "NEUTRAL"
     },
     {
-      "id": 8,
-      "name": "TWLO",
-      "image": "https://finviz.com/chart.ashx?t=TWLO&ty=c&ta=1&p=d&s=l",
-      "rsi": 55.8,
-      "target": "146.34",
-      "market": "18.77B",
-      "rating": "BUY"
-    },
-    {
-      "id": 9,
-      "name": "OTLK",
-      "image": "https://finviz.com/chart.ashx?t=OTLK&ty=c&ta=1&p=d&s=l",
-      "rsi": 54.84,
-      "target": "44.57",
-      "market": "341M",
-      "rating": "BUY"
-    },
-    {
-      "id": 11,
-      "name": "AAP",
-      "image": "https://finviz.com/chart.ashx?t=AAP&ty=c&ta=1&p=d&s=l",
-      "rsi": 35.88,
-      "target": "75.67",
-      "market": "34B",
-      "rating": "BUY"
-    },
-    {
       "id": 13,
       "name": "SPKE",
       "image": "https://finviz.com/chart.ashx?t=SPKE&ty=c&ta=1&p=d&s=l",
       "rsi": 71.35,
       "target": "23.56",
       "market": "45M",
-      "rating": "BUY"
-    },
-    {
-      "id": 14,
-      "name": "IIPR",
-      "image": "https://finviz.com/chart.ashx?t=IIPR&ty=c&ta=1&p=d&s=l",
-      "rsi": 76.07,
-      "target": "34",
-      "market": "3B",
       "rating": "BUY"
     },
     {
@@ -152,6 +62,96 @@
       "market": "85.01",
       "rating": "BUY",
       "id": 25
+    },
+    {
+      "name": "ARRY",
+      "image": "https://finviz.com/chart.ashx?t=ARRY&ty=c&ta=1&p=d&s=l",
+      "rsi": "91.21",
+      "target": "32.40",
+      "market": "10.24B",
+      "rating": "NEUTRAL",
+      "id": 26
+    },
+    {
+      "name": "BID",
+      "image": "https://finviz.com/chart.ashx?t=BID&ty=c&ta=1&p=d&s=l",
+      "rsi": "83.79",
+      "target": "45.50",
+      "market": "2.62B",
+      "rating": "NEUTRAL",
+      "id": 27
+    },
+    {
+      "name": "COP",
+      "image": "https://finviz.com/chart.ashx?t=COP&ty=c&ta=1&p=d&s=l",
+      "rsi": "41.72",
+      "target": "79.94",
+      "market": "66.96B",
+      "rating": "NEUTRAL",
+      "id": 29
+    },
+    {
+      "name": "Z",
+      "image": "https://finviz.com/chart.ashx?t=Z&ty=c&ta=1&p=d&s=l",
+      "rsi": "64.41",
+      "target": "41.00",
+      "market": "6.48B",
+      "rating": "NEUTRAL",
+      "id": 31
+    },
+    {
+      "name": "AAL",
+      "image": "https://finviz.com/chart.ashx?t=AAL&ty=c&ta=1&p=d&s=l",
+      "rsi": "58.91",
+      "target": "40.61",
+      "market": "14.67B",
+      "rating": "NEUTRAL",
+      "id": 32
+    },
+    {
+      "name": "BIDU",
+      "image": "https://finviz.com/chart.ashx?t=BIDU&ty=c&ta=1&p=d&s=l",
+      "rsi": "34.13",
+      "target": "175.09",
+      "market": "40.35B",
+      "rating": "HOLD",
+      "id": 33
+    },
+    {
+      "name": "AAPL",
+      "image": "https://finviz.com/chart.ashx?t=AAPL&ty=c&ta=1&p=d&s=l",
+      "rsi": "76.5",
+      "target": "210.89",
+      "market": "903.2B",
+      "rating": "BUY",
+      "id": 34
+    },
+    {
+      "name": "FB",
+      "image": "https://finviz.com/chart.ashx?t=FB&ty=c&ta=1&p=d&s=l",
+      "rsi": "57.94",
+      "target": "222.30",
+      "market": "537.94",
+      "rating": "BUY",
+      "id": 35
+    },
+    {
+      "name": "BABA",
+      "image": "https://finviz.com/chart.ashx?t=BABA&ty=c&ta=1&p=d&s=l",
+      "rsi": "57.48",
+      "target": "216.79",
+      "market": "444.79",
+      "rating": "BUY",
+      "id": 36
+    },
+    {
+      "name": "CTLT",
+      "image": "https://finviz.com/chart.ashx?t=CTLT&ty=c&ta=1&p=d&s=l",
+      "rsi": "78.4",
+      "target": "50.45",
+      "market": "7.68",
+      "rating": "BUY",
+      "id": 37
     }
   ]
 }

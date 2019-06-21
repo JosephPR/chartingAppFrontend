@@ -10,9 +10,123 @@
 
 .high-risk{
     background: red;
-} */
+}
+/*
+.rgba-primary-0 { color: rgba( 53, 73,136,1) } Main Primary color
+.rgba-primary-1 { color: rgba(140,145,165,1) }
+.rgba-primary-2 { color: rgba( 97,103,123,1) }
+.rgba-primary-3 { color: rgba( 28, 37, 64,1) }
+.rgba-primary-4 { color: rgba( 18, 23, 38,1) }
+
+.rgba-secondary-1-0 { color: rgba( 78, 53,138,1) }	 Main Secondary color (1)
+.rgba-secondary-1-1 { color: rgba(149,141,167,1) }
+.rgba-secondary-1-2 { color: rgba(105, 98,125,1) }
+.rgba-secondary-1-3 { color: rgba( 39, 29, 65,1) }
+.rgba-secondary-1-4 { color: rgba( 24, 18, 38,1) }
+
+.rgba-secondary-2-0 { color: rgba( 41,111,124,1) }	 Main Secondary color (2)
+.rgba-secondary-2-1 { color: rgba(126, 146, 150, 1) }
+.rgba-secondary-2-2 { color: rgba( 85,108,112,1) }
+.rgba-secondary-2-3 { color: rgba( 23, 53, 58,1) }
+.rgba-secondary-2-4 { color: rgba(43, 67, 73, 1) }
+
+ */
+
+
+
 * {
   margin: 0; padding: 0;
+}
+
+a {
+   color: rgba( 78, 53,138,1);
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  color: rgba(126, 146, 150, 1);
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.track {
+  margin-top: 30px
+}
+
+.time {
+  color: rgba( 23, 53, 58,1)
+}
+
+.oil {
+  width: 30rem;
+}
+
+#light-charts {
+  text-align: center;
+}
+
+#update-chart-form {
+display: none;
+
+}
+
+#upbutt:hover {
+  background-color: rgba(180, 190, 60, 0.61);
+ border: none;
+ color: black;
+ padding: 5px 15px;
+ box-shadow: 1px 1px 1px 1px rgba(152, 152, 152, 0.62);
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 18px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+#upbutt {
+  border-radius: 25px;
+  background-color: rgba(167, 205, 40, 0.21);
+  font-family: 'Noto Serif', serif;
+ border: none;
+ color: white;
+ padding: 5px 15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
+
+#delbutt:hover {
+
+  background-color: rgba(242, 87, 38, 0.77);
+ border: none;
+ color: black;
+  box-shadow: 1px 1px 1px 1px rgba(152, 152, 152, 0.62);
+ padding: 5px 15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 18px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+#delbutt {    border-radius: 25px;
+  background-color: rgba(242, 87, 38, 0.47);
+  font-family: 'Noto Serif', serif;
+ border: none;
+ color: white;
+ padding: 5px 15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
 }
 
 #container {
@@ -34,12 +148,35 @@ font-family: 'Ubuntu', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'ABeeZee', sans-serif; */
 .card{
-  column-count: 1;
-  column-rule-style: groove;
-  column-gap: 12px;
-  column-rule: 1px solid lightblue;
-   column-span: all;
-   column-fill: auto;
+      display: inline-grid;
+
+      box-shadow: 0px 1px 5px #555;
+     background-color: white;
+     grid-auto-rows: auto;
+      width: 30%;
+     grid-gap: 0.5rem;
+}
+
+.chart-name {
+  text-decoration: none;
+  color: rgb(112, 172, 25);
+  font-size: 3rem;
+}
+.chart-name:hover {
+
+  text-decoration: none;
+  color: rgb(177, 48, 14);
+ font-family: 'Roboto', sans-serif;
+
+}
+
+.links{
+  padding-right: 20px;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
 }
 
 input[type=text], select {
@@ -90,7 +227,7 @@ div {
 }
 
 nav {
-  background: rgba(23, 86, 193, 0.68);
+  background: rgba( 53, 73,136,1);
   padding: 20px;
 }
 
@@ -102,3 +239,55 @@ nav span {
   border-top: 5px solid rgb(217, 43, 43);
   border-bottom: 5px solid rgb(52, 217, 43);
 }
+
+/*search bar */
+
+ body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+/*
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  font-size: 1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+ border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  margin-top: 8px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(149,141,167,1);
+  background: rgba(149,141,167,1);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width:70%;
+  position: relative;
+  top: 50%;
+  left: 30%;
+
+} */
